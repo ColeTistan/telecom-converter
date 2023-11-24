@@ -17,7 +17,7 @@ if __name__ == '__main__':
         options
     )
 
-    user_input = st.text_input("Enter a message:", value="... --- ...")
+    user_input = st.text_input("Enter a message:", value="")
     
     if option == options[0]:
         morse_code_to_text = decode_message(reverse_morse_code_dict, user_input)
